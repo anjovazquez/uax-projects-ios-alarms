@@ -1,0 +1,93 @@
+
+/* Class = "IBUIViewController"; title = "AlarmClock"; ObjectID = "4nE-ih-sq9"; */
+"4nE-ih-sq9.title" = "AlarmClock";
+
+/* Class = "IBUIBarButtonItem"; title = "Preferences"; ObjectID = "54D-3Q-N7A"; */
+"54D-3Q-N7A.title" = "Preferences";
+
+/* Class = "IBUILabel"; text = "2014"; ObjectID = "5l2-qk-Qx5"; */
+"5l2-qk-Qx5.text" = "2014";
+
+/* Class = "IBUITabBarItem"; title = "Clock"; ObjectID = "640-1S-DBk"; */
+"640-1S-DBk.title" = "Clock";
+
+/* Class = "IBUILabel"; text = "00"; ObjectID = "6ud-XN-x6u"; */
+"6ud-XN-x6u.text" = "00";
+
+/* Class = "IBUINavigationItem"; title = "Alarms"; ObjectID = "7kQ-sS-X8G"; */
+"7kQ-sS-X8G.title" = "Alarms";
+
+/* Class = "IBUILabel"; text = "Mostrar dia"; ObjectID = "BPy-ls-W7v"; */
+"BPy-ls-W7v.text" = "Mostrar dia";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Reloj"; ObjectID = "BQM-ht-hnh"; */
+"BQM-ht-hnh.headerTitle" = "Reloj";
+
+/* Class = "IBUINavigationItem"; title = "Alarm"; ObjectID = "Drc-nA-1ah"; */
+"Drc-nA-1ah.title" = "Alarm";
+
+/* Class = "IBUITabBarItem"; title = "Alarms"; ObjectID = "EDf-2X-gLS"; */
+"EDf-2X-gLS.title" = "Alarms";
+
+/* Class = "IBUINavigationItem"; title = "Clock"; ObjectID = "EKJ-xO-D27"; */
+"EKJ-xO-D27.title" = "Clock";
+
+/* Class = "IBUILabel"; text = "Tue 27"; ObjectID = "ETP-bz-OvL"; */
+"ETP-bz-OvL.text" = "Tue 27";
+
+/* Class = "IBUINavigationItem"; title = "Alarm"; ObjectID = "HaF-EB-Qli"; */
+"HaF-EB-Qli.title" = "Alarm";
+
+/* Class = "IBUILabel"; text = "May"; ObjectID = "LEW-hW-BtI"; */
+"LEW-hW-BtI.text" = "May";
+
+/* Class = "IBUILabel"; text = "Mostrar mes"; ObjectID = "VtX-8N-ptE"; */
+"VtX-8N-ptE.text" = "Mostrar mes";
+
+/* Class = "IBUITabBarItem"; title = "Settings"; ObjectID = "XS6-UX-bqS"; */
+"XS6-UX-bqS.title" = "Settings";
+
+/* Class = "IBUILabel"; text = "May"; ObjectID = "XeS-fC-NEx"; */
+"XeS-fC-NEx.text" = "May";
+
+/* Class = "IBUINavigationItem"; title = "Clock"; ObjectID = "ZyV-Uc-YXi"; */
+"ZyV-Uc-YXi.title" = "Clock";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "bdS-zK-9r0"; */
+"bdS-zK-9r0.title" = "Item";
+
+/* Class = "IBUILabel"; text = "00:00"; ObjectID = "hdh-6P-dex"; */
+"hdh-6P-dex.text" = "00:00";
+
+/* Class = "IBUILabel"; text = "2014"; ObjectID = "p5e-Eu-MrZ"; */
+"p5e-Eu-MrZ.text" = "2014";
+
+/* Class = "IBUIBarButtonItem"; title = "Done"; ObjectID = "pEf-Dg-uA2"; */
+"pEf-Dg-uA2.title" = "Done";
+
+/* Class = "IBUILabel"; text = "00:00"; ObjectID = "pON-hr-wUi"; */
+"pON-hr-wUi.text" = "00:00";
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "rFf-xI-ItW"; */
+"rFf-xI-ItW.title" = "Settings";
+
+/* Class = "IBUILabel"; text = "Mostrar año"; ObjectID = "rsd-Pu-aWe"; */
+"rsd-Pu-aWe.text" = "Mostrar año";
+
+/* Class = "IBUILabel"; text = "Tue 27"; ObjectID = "sfc-Le-8aD"; */
+"sfc-Le-8aD.text" = "Tue 27";
+
+/* Class = "IBUILabel"; text = "00"; ObjectID = "sv4-zy-2OO"; */
+"sv4-zy-2OO.text" = "00";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "tvW-cR-erb"; */
+"tvW-cR-erb.title" = "Item";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Sonidos"; ObjectID = "twk-Bf-TQI"; */
+"twk-Bf-TQI.headerTitle" = "Sonidos";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "wOp-RZ-H9M"; */
+"wOp-RZ-H9M.title" = "Item";
+
+/* Class = "IBUIViewController"; title = "AlarmClock"; ObjectID = "wxr-pK-W86"; */
+"wxr-pK-W86.title" = "AlarmClock";

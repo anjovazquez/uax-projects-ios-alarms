@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  AlarmClock
+
+  Created by Angel Vazquez on 31/05/14.
+  Copyright (c) 2014 uax. All rights reserved.
+*/
+
+"Alarm Programmed"="Alarma Programada";
+"Switch off Alarm"="Apagar Alarma";
+"Alarm"="Alarma";
+"Yes"="Apagar";
+"Alarm added -- %@"="Alarma añadida -- %@";
+"Sound"="Sonido";
+"Sound Picked"="Sonido Escogido";
+"Year"="Mostrar año";
+"Day"="Mostrar dia";
+"Month"="Mostrar mes";
+"Red"="Rojo";
+"Green"="Verde";
+"Blue"="Azul";
+"SetAlarm"="Añadir";
+"BadProgrammedAlarm"="La alarma es anterior a la fecha actual";

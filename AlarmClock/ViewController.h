@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIPopoverControllerDelegate> {
+    IBOutlet UILabel *label;
+    IBOutlet UILabel *monthLabel;
+    IBOutlet UILabel *yearLabel;
+    IBOutlet UILabel *dayLabel;
+    IBOutlet UILabel *secLabel;
+    NSTimer *timer;
+    
+    
+}
+
+-(void)Actualizar;
 
 @end

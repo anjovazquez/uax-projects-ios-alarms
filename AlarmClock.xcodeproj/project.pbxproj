@@ -13,7 +13,6 @@
 		E72B3A0C191EC1CD00C810DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E72B3A0A191EC1CD00C810DD /* InfoPlist.strings */; };
 		E72B3A0E191EC1CD00C810DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E72B3A0D191EC1CD00C810DD /* main.m */; };
 		E72B3A12191EC1CD00C810DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E72B3A11191EC1CD00C810DD /* AppDelegate.m */; };
-		E72B3A15191EC1CD00C810DD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E72B3A13191EC1CD00C810DD /* Main_iPhone.storyboard */; };
 		E72B3A18191EC1CD00C810DD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E72B3A16191EC1CD00C810DD /* Main_iPad.storyboard */; };
 		E72B3A1B191EC1CE00C810DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72B3A1A191EC1CE00C810DD /* ViewController.m */; };
 		E72B3A1D191EC1CE00C810DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E72B3A1C191EC1CE00C810DD /* Images.xcassets */; };
@@ -22,6 +21,24 @@
 		E72B3A26191EC1CE00C810DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72B3A05191EC1CD00C810DD /* UIKit.framework */; };
 		E72B3A2E191EC1CF00C810DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E72B3A2C191EC1CF00C810DD /* InfoPlist.strings */; };
 		E72B3A30191EC1CF00C810DD /* AlarmClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E72B3A2F191EC1CF00C810DD /* AlarmClockTests.m */; };
+		E72B3A3B191FE8BB00C810DD /* AddAlarmController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72B3A3A191FE8BB00C810DD /* AddAlarmController.m */; };
+		E768D2C9195B9E2600C70DA5 /* UIWindow+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = E768D2C8195B9E2600C70DA5 /* UIWindow+Shake.m */; };
+		E76E775B192BE4CE00F45C2F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E76E775A192BE4CE00F45C2F /* DetailViewController.m */; };
+		E78DDE271928C64F00FED640 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78DDE251928C64F00FED640 /* Main_iPhone.storyboard */; };
+		E78DDE2A192BC9BC00FED640 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78DDE29192BC9BB00FED640 /* TabBarViewController.m */; };
+		E79AFFC41927AF70001D70F1 /* alarm-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E79AFFC21927AF6F001D70F1 /* alarm-7.png */; };
+		E79AFFC51927AF70001D70F1 /* clock-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E79AFFC31927AF70001D70F1 /* clock-7.png */; };
+		E79AFFC91927B37B001D70F1 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E79AFFC81927B37B001D70F1 /* libsqlite3.0.dylib */; };
+		E79AFFCC1927B457001D70F1 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79AFFCB1927B457001D70F1 /* ListTableViewController.m */; };
+		E7A1AD31192EA3D40085B7E5 /* AlarmElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A1AD30192EA3D40085B7E5 /* AlarmElement.m */; };
+		E7A8CCE7195B582000ADC7B5 /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A8CCE6195B582000ADC7B5 /* LandscapeViewController.m */; };
+		E7C4058E193101A200D05061 /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C4058D193101A200D05061 /* SettingsView.m */; };
+		E7C40590193201BE00D05061 /* write-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C4058F193201BE00D05061 /* write-7.png */; };
+		E7C40597193241B400D05061 /* Hillside.m4r in Resources */ = {isa = PBXBuildFile; fileRef = E7C40596193241B400D05061 /* Hillside.m4r */; };
+		E7C4059A193242D900D05061 /* Twinkle.m4r in Resources */ = {isa = PBXBuildFile; fileRef = E7C40598193242D900D05061 /* Twinkle.m4r */; };
+		E7C4059B193242D900D05061 /* Waves.m4r in Resources */ = {isa = PBXBuildFile; fileRef = E7C40599193242D900D05061 /* Waves.m4r */; };
+		E7C5BEC11937C6D80002147E /* ClockNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C5BEC01937C6D80002147E /* ClockNavigationController.m */; };
+		E7DA0FD8193A028900627EA1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7DA0FDA193A028900627EA1 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +52,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E7132BB3196B7D3900A89514 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E7132BB4196B7D3C00A89514 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		E7132BB5196B7D3C00A89514 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/Main_iPhone.strings"; sourceTree = "<group>"; };
+		E7132BB6196B7D3C00A89514 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/Main_iPad.strings"; sourceTree = "<group>"; };
+		E7132BB7196B7D3D00A89514 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		E7132BB8196B7D5600A89514 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		E7132BB9196B7D5600A89514 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		E7132BBA196B7D6D00A89514 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		E7132BBB196B7D6D00A89514 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		E7132BBC196B7DC500A89514 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E7132BBD196B7DC800A89514 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E72B39FE191EC1CD00C810DD /* AlarmClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E72B3A01191EC1CD00C810DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E72B3A03191EC1CD00C810DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E72B3A05191EC1CD00C810DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E72B3A09191EC1CD00C810DD /* AlarmClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlarmClock-Info.plist"; sourceTree = "<group>"; };
-		E72B3A0B191EC1CD00C810DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E72B3A0D191EC1CD00C810DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E72B3A0F191EC1CD00C810DD /* AlarmClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlarmClock-Prefix.pch"; sourceTree = "<group>"; };
 		E72B3A10191EC1CD00C810DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E72B3A11191EC1CD00C810DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E72B3A14191EC1CD00C810DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		E72B3A17191EC1CD00C810DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		E72B3A19191EC1CE00C810DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E72B3A1A191EC1CE00C810DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -53,8 +79,35 @@
 		E72B3A22191EC1CE00C810DD /* AlarmClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E72B3A23191EC1CE00C810DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E72B3A2B191EC1CE00C810DD /* AlarmClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlarmClockTests-Info.plist"; sourceTree = "<group>"; };
-		E72B3A2D191EC1CF00C810DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E72B3A2F191EC1CF00C810DD /* AlarmClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmClockTests.m; sourceTree = "<group>"; };
+		E72B3A39191FE8BA00C810DD /* AddAlarmController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAlarmController.h; sourceTree = "<group>"; };
+		E72B3A3A191FE8BB00C810DD /* AddAlarmController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAlarmController.m; sourceTree = "<group>"; };
+		E768D2C7195B9E2600C70DA5 /* UIWindow+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Shake.h"; sourceTree = "<group>"; };
+		E768D2C8195B9E2600C70DA5 /* UIWindow+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Shake.m"; sourceTree = "<group>"; };
+		E76E7759192BE4CE00F45C2F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E76E775A192BE4CE00F45C2F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E78DDE261928C64F00FED640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E78DDE28192BC9BB00FED640 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		E78DDE29192BC9BB00FED640 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		E79AFFC21927AF6F001D70F1 /* alarm-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm-7.png"; sourceTree = "<group>"; };
+		E79AFFC31927AF70001D70F1 /* clock-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-7.png"; sourceTree = "<group>"; };
+		E79AFFC61927B121001D70F1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		E79AFFC81927B37B001D70F1 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		E79AFFCA1927B457001D70F1 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListTableViewController.h; path = ../ListTableViewController.h; sourceTree = "<group>"; };
+		E79AFFCB1927B457001D70F1 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListTableViewController.m; path = ../ListTableViewController.m; sourceTree = "<group>"; };
+		E7A1AD2F192EA3D40085B7E5 /* AlarmElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmElement.h; sourceTree = "<group>"; };
+		E7A1AD30192EA3D40085B7E5 /* AlarmElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmElement.m; sourceTree = "<group>"; };
+		E7A8CCE5195B582000ADC7B5 /* LandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		E7A8CCE6195B582000ADC7B5 /* LandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+		E7C4058C193101A200D05061 /* SettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView.h; sourceTree = "<group>"; };
+		E7C4058D193101A200D05061 /* SettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsView.m; sourceTree = "<group>"; };
+		E7C4058F193201BE00D05061 /* write-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "write-7.png"; sourceTree = "<group>"; };
+		E7C40596193241B400D05061 /* Hillside.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hillside.m4r; sourceTree = "<group>"; };
+		E7C40598193242D900D05061 /* Twinkle.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = Twinkle.m4r; sourceTree = "<group>"; };
+		E7C40599193242D900D05061 /* Waves.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = Waves.m4r; sourceTree = "<group>"; };
+		E7C5BEBF1937C6D80002147E /* ClockNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockNavigationController.h; sourceTree = "<group>"; };
+		E7C5BEC01937C6D80002147E /* ClockNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockNavigationController.m; sourceTree = "<group>"; };
+		E7DA0FD9193A028900627EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79AFFC91927B37B001D70F1 /* libsqlite3.0.dylib in Frameworks */,
 				E72B3A04191EC1CD00C810DD /* CoreGraphics.framework in Frameworks */,
 				E72B3A06191EC1CD00C810DD /* UIKit.framework in Frameworks */,
 				E72B3A02191EC1CD00C810DD /* Foundation.framework in Frameworks */,
@@ -103,6 +157,8 @@
 		E72B3A00191EC1CD00C810DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E79AFFC81927B37B001D70F1 /* libsqlite3.0.dylib */,
+				E79AFFC61927B121001D70F1 /* libsqlite3.dylib */,
 				E72B3A01191EC1CD00C810DD /* Foundation.framework */,
 				E72B3A03191EC1CD00C810DD /* CoreGraphics.framework */,
 				E72B3A05191EC1CD00C810DD /* UIKit.framework */,
@@ -114,14 +170,33 @@
 		E72B3A07191EC1CD00C810DD /* AlarmClock */ = {
 			isa = PBXGroup;
 			children = (
+				E7A8CCE5195B582000ADC7B5 /* LandscapeViewController.h */,
+				E7A8CCE6195B582000ADC7B5 /* LandscapeViewController.m */,
+				E7DA0FDA193A028900627EA1 /* Localizable.strings */,
+				E78DDE251928C64F00FED640 /* Main_iPhone.storyboard */,
+				E79AFFCA1927B457001D70F1 /* ListTableViewController.h */,
+				E79AFFCB1927B457001D70F1 /* ListTableViewController.m */,
 				E72B3A10191EC1CD00C810DD /* AppDelegate.h */,
 				E72B3A11191EC1CD00C810DD /* AppDelegate.m */,
-				E72B3A13191EC1CD00C810DD /* Main_iPhone.storyboard */,
 				E72B3A16191EC1CD00C810DD /* Main_iPad.storyboard */,
 				E72B3A19191EC1CE00C810DD /* ViewController.h */,
 				E72B3A1A191EC1CE00C810DD /* ViewController.m */,
 				E72B3A1C191EC1CE00C810DD /* Images.xcassets */,
 				E72B3A08191EC1CD00C810DD /* Supporting Files */,
+				E72B3A39191FE8BA00C810DD /* AddAlarmController.h */,
+				E72B3A3A191FE8BB00C810DD /* AddAlarmController.m */,
+				E78DDE28192BC9BB00FED640 /* TabBarViewController.h */,
+				E78DDE29192BC9BB00FED640 /* TabBarViewController.m */,
+				E76E7759192BE4CE00F45C2F /* DetailViewController.h */,
+				E76E775A192BE4CE00F45C2F /* DetailViewController.m */,
+				E7A1AD2F192EA3D40085B7E5 /* AlarmElement.h */,
+				E7A1AD30192EA3D40085B7E5 /* AlarmElement.m */,
+				E7C4058C193101A200D05061 /* SettingsView.h */,
+				E7C4058D193101A200D05061 /* SettingsView.m */,
+				E7C5BEBF1937C6D80002147E /* ClockNavigationController.h */,
+				E7C5BEC01937C6D80002147E /* ClockNavigationController.m */,
+				E768D2C7195B9E2600C70DA5 /* UIWindow+Shake.h */,
+				E768D2C8195B9E2600C70DA5 /* UIWindow+Shake.m */,
 			);
 			path = AlarmClock;
 			sourceTree = "<group>";
@@ -129,6 +204,12 @@
 		E72B3A08191EC1CD00C810DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E7C40598193242D900D05061 /* Twinkle.m4r */,
+				E7C40599193242D900D05061 /* Waves.m4r */,
+				E7C40596193241B400D05061 /* Hillside.m4r */,
+				E7C4058F193201BE00D05061 /* write-7.png */,
+				E79AFFC21927AF6F001D70F1 /* alarm-7.png */,
+				E79AFFC31927AF70001D70F1 /* clock-7.png */,
 				E72B3A09191EC1CD00C810DD /* AlarmClock-Info.plist */,
 				E72B3A0A191EC1CD00C810DD /* InfoPlist.strings */,
 				E72B3A0D191EC1CD00C810DD /* main.m */,
@@ -214,6 +295,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				"es-ES",
 			);
 			mainGroup = E72B39F5191EC1CB00C810DD;
 			productRefGroup = E72B39FF191EC1CD00C810DD /* Products */;
@@ -231,9 +314,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C4059B193242D900D05061 /* Waves.m4r in Resources */,
+				E7C40590193201BE00D05061 /* write-7.png in Resources */,
+				E7DA0FD8193A028900627EA1 /* Localizable.strings in Resources */,
 				E72B3A18191EC1CD00C810DD /* Main_iPad.storyboard in Resources */,
 				E72B3A1D191EC1CE00C810DD /* Images.xcassets in Resources */,
-				E72B3A15191EC1CD00C810DD /* Main_iPhone.storyboard in Resources */,
+				E7C40597193241B400D05061 /* Hillside.m4r in Resources */,
+				E78DDE271928C64F00FED640 /* Main_iPhone.storyboard in Resources */,
+				E79AFFC41927AF70001D70F1 /* alarm-7.png in Resources */,
+				E79AFFC51927AF70001D70F1 /* clock-7.png in Resources */,
+				E7C4059A193242D900D05061 /* Twinkle.m4r in Resources */,
 				E72B3A0C191EC1CD00C810DD /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +343,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A1AD31192EA3D40085B7E5 /* AlarmElement.m in Sources */,
 				E72B3A1B191EC1CE00C810DD /* ViewController.m in Sources */,
+				E72B3A3B191FE8BB00C810DD /* AddAlarmController.m in Sources */,
 				E72B3A12191EC1CD00C810DD /* AppDelegate.m in Sources */,
 				E72B3A0E191EC1CD00C810DD /* main.m in Sources */,
+				E7A8CCE7195B582000ADC7B5 /* LandscapeViewController.m in Sources */,
+				E78DDE2A192BC9BC00FED640 /* TabBarViewController.m in Sources */,
+				E7C5BEC11937C6D80002147E /* ClockNavigationController.m in Sources */,
+				E768D2C9195B9E2600C70DA5 /* UIWindow+Shake.m in Sources */,
+				E79AFFCC1927B457001D70F1 /* ListTableViewController.m in Sources */,
+				E76E775B192BE4CE00F45C2F /* DetailViewController.m in Sources */,
+				E7C4058E193101A200D05061 /* SettingsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,23 +380,18 @@
 		E72B3A0A191EC1CD00C810DD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E72B3A0B191EC1CD00C810DD /* en */,
+				E7132BB4196B7D3C00A89514 /* es-ES */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E72B3A13191EC1CD00C810DD /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E72B3A14191EC1CD00C810DD /* Base */,
-			);
-			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		E72B3A16191EC1CD00C810DD /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E72B3A17191EC1CD00C810DD /* Base */,
+				E7132BB6196B7D3C00A89514 /* es-ES */,
+				E7132BB9196B7D5600A89514 /* es */,
+				E7132BBB196B7D6D00A89514 /* en */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
@@ -305,9 +399,31 @@
 		E72B3A2C191EC1CF00C810DD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E72B3A2D191EC1CF00C810DD /* en */,
+				E7132BB7196B7D3D00A89514 /* es-ES */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E78DDE251928C64F00FED640 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E78DDE261928C64F00FED640 /* Base */,
+				E7132BB5196B7D3C00A89514 /* es-ES */,
+				E7132BB8196B7D5600A89514 /* es */,
+				E7132BBA196B7D6D00A89514 /* en */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E7DA0FDA193A028900627EA1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7DA0FD9193A028900627EA1 /* Base */,
+				E7132BB3196B7D3900A89514 /* es-ES */,
+				E7132BBC196B7DC500A89514 /* es */,
+				E7132BBD196B7DC800A89514 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -470,6 +586,7 @@
 				E72B3A35191EC1CF00C810DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E72B3A36191EC1CF00C810DD /* Build configuration list for PBXNativeTarget "AlarmClockTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +595,7 @@
 				E72B3A38191EC1CF00C810DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
